@@ -2,6 +2,7 @@
 
 :root {
   --primary: #072ac8;
+  --secondary: #6b708d;
 }
 
 * {
@@ -9,25 +10,40 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+img {
+  height: 50px;
+}
 body {
   font-family: "Roboto", sans-serif;
   margin: 100px auto;
   background-color: #f2f4fc;
-  
+  width: 100vw;
 }
 
 /* ------------------------------------------------------------------------ */
 /* ------------------------------ INDEX html ------------------------------ */
 /* ------------------------------------------------------------------------ */
 
+/* ------------------------------ Splash page ------------------------------ */
+
+/* Your CSS code goes here */
+
+/* ------ CIRCULAR ANIMATION ------ */
+
+/* Your CSS code goes here */
+
+/* ------------------------------ Navbar ------------------------------ */
+
+header, nav, section, footer {
+  margin: 50px 40px;
+}
+
 nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 50px 40px;
 }
-nav img:first-child {
+nav img {
   width: 60px;
   height: 18px;
 }
@@ -40,7 +56,7 @@ nav div {
 nav a {
   text-decoration: none;
   font-size: 24px;
-  color: #6b708d;
+  color: var(--secondary);
   font-weight: 500;
   
 }
@@ -56,21 +72,71 @@ nav div :first-child {
   font-size: 17px;
   padding: 15px 30px;
 }
-/* ------------------------------ Splash page ------------------------------ */
-
-/* Your CSS code goes here */
-
-/* ------ CIRCULAR ANIMATION ------ */
-
-/* Your CSS code goes here */
-
-/* ------------------------------ Navbar ------------------------------ */
-
 
 /* ------------------------------ Header ------------------------------ */
 
-/* Your CSS code goes here */
+main {
+  display: flex;
+  justify-content: space-around;
+}
 
+main h2 {
+  font-size: 60px;
+  line-height: 1.3;
+  margin-bottom: 15px;
+
+}
+main p {
+color: var(--secondary);
+font-size: 20px;
+font-weight: 400;
+line-height: 1.5;
+}
+
+main div p:last-of-type{
+  margin-bottom: 40px;
+}
+
+main a {
+  text-decoration: none;
+  color: var(--secondary);
+  font-size: 17px;
+  font-weight: 500;
+  cursor: pointer;
+  line-height: 1.5;
+}
+
+main a:last-child {
+  display: inline-block;
+  color: white;
+  background-color: var(--primary);
+  padding: 15px 30px;
+  font-weight: 400;
+}
+
+#character {
+  position: relative;
+  border: 1px solid black;
+}
+.creditCard {
+position: absolute;
+top: 0;
+left: 0;
+height: 20rem;
+}
+.smilingGuy {
+height: 550px;
+}
+.emojiFinger {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 15rem;
+}
+header img {
+  position:absolute;
+  height: 5rem;
+}
 /* ------------------------------ Partners ------------------------------ */
 
 /* Your CSS code goes here */
