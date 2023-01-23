@@ -18,7 +18,7 @@ This is a vanilla project build with;
 January 23, 2022
 
 - [x] Initialize the project - link a local git with a remote GitHub repository
-- [ ] Create the HTML skeleton
+- [x] Create the HTML skeleton
 - [ ] Style the nav seaction
 - [ ] Style the header section
 
