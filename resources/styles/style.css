@@ -3,6 +3,7 @@
 :root {
   --primary: #072ac8;
   --secondary: #6b708d;
+  --background: #f2f4fc
 }
 
 * {
@@ -15,9 +16,9 @@ img {
 }
 body {
   font-family: "Roboto", sans-serif;
-  margin: 100px auto;
-  background-color: #f2f4fc;
+  background-color: var(--background);
   width: 100vw;
+  padding: 0 200px;
 }
 
 /* ------------------------------------------------------------------------ */
@@ -35,13 +36,15 @@ body {
 /* ------------------------------ Navbar ------------------------------ */
 
 nav, main, section, footer {
-  margin: 50px 40px;
+  margin: 100px 40px;
 }
 
 nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  margin: 50px;
+
 }
 nav img {
   width: 60px;
@@ -55,7 +58,7 @@ nav div {
 
 nav a {
   text-decoration: none;
-  font-size: 24px;
+  font-size: 18px;
   color: var(--secondary);
   font-weight: 500;
   
@@ -77,7 +80,7 @@ nav div :first-child {
 
 main {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   gap: 20px;
 }
 
@@ -148,11 +151,47 @@ header img {
   justify-content: space-evenly;
 }
 
-
+#logo img {
+  height: 40px;
+}
 /* ------------------------------ Recent projects ------------------------------ */
 
-/* Your CSS code goes here */
+#projects {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 
+}
+
+.projects-main {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: large;
+  gap: 50px;
+}
+
+#projects h2 {
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+#projects img {
+  height: 250px;
+}
+
+.project-text {
+  padding: 20px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: white;
+}
+#projects a {
+  text-decoration: none;
+  color: var(--primary);
+  font-weight: 500;
+}
 /* ------------------------------ Client reviews ------------------------------ */
 
 /* Your CSS code goes here */
