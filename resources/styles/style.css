@@ -13,9 +13,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-img {
-  height: 50px;
-}
 body {
   font-family: "Roboto", sans-serif;
   background-color: var(--background);
@@ -134,7 +131,7 @@ left: 0;
 height: 20rem;
 }
 .smilingGuy {
-height: 550px;
+height: 650px;
 }
 .emojiFinger {
   position: absolute;
@@ -163,8 +160,6 @@ header img {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 40px;
-
 }
 
 .projects-main {
@@ -180,7 +175,7 @@ header img {
 }
 
 #projects img {
-  height: 250px;
+  height: 230px;
 }
 
 .project-text {
@@ -199,12 +194,14 @@ header img {
 /* ------------------------------ Client reviews ------------------------------ */
 
 #testimony {
+  position: relative;
   background-color: #292e47;
   /* background-color: var(--dark); */
-  height: 30vw;
+  height: 35vw;
   background-image: url(../images/testimonial-section/orbit.png);
   background-size: contain;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 #testimony h2 {
@@ -232,7 +229,8 @@ margin-top: 60px;
 
 .person img {
   border-radius: 50%;
-
+  height: 60px;
+  margin-right: 5px;
 }
 
 .person div {
@@ -249,7 +247,50 @@ margin-top: 60px;
   font-size: 1rem;
   font-weight: 300;
   color: white;
+  position: relative;
 }
+
+#emoji {
+  position: absolute;
+  bottom: 0;
+  height: 35vw;
+  width: 69vw;
+  display: flex;
+}
+
+#emoji img {
+  height: 160px;
+}
+
+.emoji-upperLeft {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 60px;
+}
+
+.emoji-upperRight {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 70px;
+}
+.emoji-bottomLeft {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-left: 90px;
+  margin-bottom: 30px;
+}
+.emoji-bottomRight {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-right: 100px;
+  margin-bottom: 30px;
+}
+
+
 
 
 
