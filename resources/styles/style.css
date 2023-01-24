@@ -173,6 +173,7 @@ header img {
 #projects h2 {
   font-size: 50px;
   margin-bottom: 50px;
+  font-weight: 500;
 }
 
 #projects img {
@@ -302,7 +303,6 @@ margin-top: 60px;
   flex-direction: column;
   align-items: flex-start;
 
-
 }
 
 .services-main {
@@ -315,6 +315,7 @@ margin-top: 60px;
 #services h2 {
   font-size: 50px;
   margin-bottom: 50px;
+  font-weight: 500;
 }
 
 /*! need to fix image not fitting the whole of it */
@@ -355,7 +356,7 @@ margin-top: 60px;
 #support {
   background-color: var(--yellow);
   height: 30vw;
-  width: 75vw;
+  width: 80vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -394,7 +395,41 @@ margin-top: 60px;
 
 /* ------------------------------ Footer ------------------------------ */
 
-/* Your CSS code goes here */
+#footer {
+  display: flex;
+  justify-content: space-around;
+  width: 80vw;
+  height: 7vw;
+  padding-right: 300px;
+  padding-left: 50px;
+  gap: 200px;
+}
+.direction {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 16vw;
+  gap: 25px;
+  color: var(--secondary);
+  font-weight: 400;
+}
+
+.direction img {
+  height: 30px;
+}
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: var(--primary);
+  font-weight: 400;
+}
 
 /* -------------------------------------------------------------------------- */
 /* ------------------------------ PROJECT html ------------------------------ */
