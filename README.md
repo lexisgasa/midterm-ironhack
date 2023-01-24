@@ -19,8 +19,18 @@ January 23, 2022
 
 - [x] Initialize the project - link a local git with a remote GitHub repository
 - [x] Create the HTML skeleton
-- [ ] Style the nav seaction
-- [ ] Style the header section
+- [x] Style the nav seaction
+- [x] Style the main section
+
+January 24, 2022
+- [ ] Style the logo bar
+- [ ] Style the project section
+- [ ] Style the clients review section
+- [ ] Style the service section
+- [ ] Style the support section
+- [ ] Style the footer
+- [ ] Create the "contact us" HTML skeleton
+- [ ] Create the "projects" HTML skeleton
 
 ## About me
 
