@@ -15,7 +15,7 @@
 }
 body {
   font-family: "Roboto", sans-serif;
-  background-color: var(--background);
+  background-color: #f2f4fc;
   width: 100vw;
   padding: 0 200px;
 }
@@ -130,6 +130,7 @@ top: 0;
 left: 0;
 height: 20rem;
 }
+/* ! need to fit that guy image */
 .smilingGuy {
 height: 650px;
 }
@@ -296,8 +297,57 @@ margin-top: 60px;
 
 /* ------------------------------ Services ------------------------------ */
 
-/* Your CSS code goes here */
+#services {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 
+}
+
+.services-main {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: large;
+  height: 400px;
+}
+
+#services h2 {
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+/*! need to fix image not fitting the whole of it */
+.services-main img {
+  background-color: #f2f4fc;
+  padding: 20px;
+  border-radius: 50%;
+ 
+  height: 90px;
+}
+
+.serviceDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  background-color: white;
+  margin-right: 30px;
+  padding-left: 30px;
+}
+
+.service-text {
+  padding: 20px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#services a {
+  text-decoration: none;
+  color: var(--primary);
+  font-weight: 500;
+}
 /* ------------------------------ Questions form ------------------------------ */
 
 /* Your CSS code goes here */
