@@ -143,7 +143,11 @@ header img {
 }
 /* ------------------------------ Partners ------------------------------ */
 
-/* Your CSS code goes here */
+#logo {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 
 /* ------------------------------ Recent projects ------------------------------ */
 
