@@ -115,12 +115,12 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 
 ###### Martes 24, Enero 2023
 
-- [ ] Style the logo bar
-- [ ] Style the project section
-- [ ] Style the clients review section
-- [ ] Style the service section
-- [ ] Style the support section
-- [ ] Style the footer
+- [x] Style the logo bar
+- [x] Style the project section
+- [x] Style the clients review section
+- [x] Style the service section
+- [x] Style the support section
+- [x] Style the footer
 - [ ] Create the "contact us" HTML skeleton
 - [ ] Create the "projects" HTML skeleton
 
