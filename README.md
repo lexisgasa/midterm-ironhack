@@ -121,8 +121,8 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 - [x] Style the service section
 - [x] Style the support section
 - [x] Style the footer
-- [ ] Create the "contact us" HTML skeleton
-- [ ] Create the "projects" HTML skeleton
+- [x] Create the "contact us" HTML skeleton
+- [x] Create the "projects" HTML skeleton
 
 #### Day Three
 
