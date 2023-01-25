@@ -128,6 +128,10 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 
 ###### Miercoles 25, Enero 2023
 
+- [ ] Retrieve data from the contact-us form section
+- [ ] Retrieve data from the email support form section
+- [ ] Fetch to load project images and text
+
 #### Day Four
 
 ###### Jueves 26, Enero 2023
