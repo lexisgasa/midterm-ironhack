@@ -318,13 +318,30 @@ margin-top: 60px;
   font-weight: 500;
 }
 
-/*! need to fix image not fitting the whole of it */
-.services-main img {
-  background-color: #f2f4fc;
-  padding: 20px;
+
+.little-img1 { 
+  background-image: url(../images/services-section/icons/1.svg);
+  background-repeat: no-repeat;
+  background-position: center;
   border-radius: 50%;
- 
-  height: 90px;
+  background-color: #f2f4fc;
+  padding: 35px;
+}
+.little-img2 { 
+  background-image: url(../images/services-section/icons/2.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  background-color: #f2f4fc;
+  padding: 35px;
+}
+.little-img3 { 
+  background-image: url(../images/services-section/icons/3.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  background-color: #f2f4fc;
+  padding: 35px;
 }
 
 .serviceDiv {
