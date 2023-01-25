@@ -8,6 +8,10 @@
   --yellow: #ffc600
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -478,6 +482,9 @@ margin-top: 60px;
 @media (max-width: 990px) {
   /* Your CSS code goes here */
 }
+
+
+/* ! tablet */
 
 /* ------------------------- Smaller than 766px (mobile) ------------------------- */
 @media (max-width: 766px) {
