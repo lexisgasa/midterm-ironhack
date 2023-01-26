@@ -157,24 +157,21 @@ main a:last-child:hover{
 
 #character {
   position: relative;
-  border: 1px solid black;
-
 }
 .creditCard {
 position: absolute;
-top: 0;
-left: 0;
-height: 20rem;
+margin-top: -30px;
+margin-left: -140px;
+height: 23rem;
 }
-/* ! need to fit that guy image */
 .smilingGuy {
-height: 650px;
+height: 600px;
 }
 .emojiFinger {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  height: 15rem;
+  position: relative;
+  left: -175px;
+  top: 125px;
+  height: 19rem;
 }
 header img {
   position:absolute;
