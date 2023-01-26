@@ -138,6 +138,9 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 
 ###### Jueves 26, Enero 2023
 
+- [ ] Adapt the site for phone media query configuration
+- [ ] Finish the style
+
 #### Day Five
 
 ###### Viernes 27, Enero 2023
