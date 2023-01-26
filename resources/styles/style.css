@@ -3,7 +3,12 @@
 :root {
   --primary: #072ac8;
   --secondary: #6b708d;
-  --background: #f2f4fc
+  --turquoiseBlue: #43D2FF;
+  --skyBlue: #A2D6F9;
+  --lighterSkyBlue: #D1EDFF;
+  --lightestBlue: #ECF7FF;
+  --boxes: rgba(107, 112, 141, 0.1); /* This one isn't in figma but somehow I got it from the inspector in some boxes*/
+  --backgroundWhite: #f2f4fc
   --dark: #292e47; 
   --yellow: #ffc600
 }
@@ -419,7 +424,7 @@ margin-top: 60px;
 #footer {
   display: flex;
   justify-content: space-around;
-  width: 80vw;
+  width: 70vw;
   height: 7vw;
   padding-right: 300px;
   padding-left: 50px;
@@ -466,7 +471,69 @@ margin-top: 60px;
 
 /* ------------------------------ Form ------------------------------ */
 
-/* Your CSS code goes here */
+#getData {
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--secondary);
+}
+
+#getData input, textarea {
+  background-color: var(--boxes);
+  border: none;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#getData h2 {
+  color: black;
+  font-size: 50px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
+
+#getData input:nth-child(3) {
+  background-color: var(--primary);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  height: 80px;
+}
+
+.userName {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.emailPhone {
+  display: flex;
+  gap: 10px;
+}
+
+.mail {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 50%;
+}
+.phone {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 50%;
+}
+.message {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#getData ::placeholder {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  opacity: 60%;
+  font-size: 16px;
+}
 
 /* ----------------------------------------------------------------------------- */
 /* ------------------------------ About html ------------------------------ */
