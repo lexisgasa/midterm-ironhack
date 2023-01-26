@@ -64,6 +64,7 @@ nav div {
   gap: 25px;
 }
 
+
 nav a {
   text-decoration: none;
   font-size: 18px;
@@ -72,8 +73,16 @@ nav a {
   
 }
 
+nav a:hover {
+  color: var(--primary);
+}
+
 nav div :first-child {
   color: #0082f3;
+}
+
+nav div :first-child:hover {
+  color: var(--primary);
 }
 
 .navContact {
@@ -84,17 +93,28 @@ nav div :first-child {
   padding: 15px 30px;
 }
 
+.navContact:hover {
+  background-color: #292e47;;
+  color: white;
+}
+
 /* ------------------------------ Header ------------------------------ */
 
 main {
   display: flex;
-  justify-content: space-evenly;
-  gap: 20px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-height: 70vw;
 }
 
 main h2 {
-  font-size: 50px;
-  margin-bottom: 10px;
+  font-size: 60px;
+  margin-bottom: 15px;
+  padding-top: 70px;
+  font-weight: 600;
+  color: #292e47;
+  opacity: 95%;
+  width: 40vw;
 }
 
 main h2:first-child {
@@ -119,6 +139,7 @@ main a {
   font-weight: 500;
   cursor: pointer;
   line-height: 1.5;
+  margin-right: 15px;
 }
 
 main a:last-child {
@@ -129,9 +150,15 @@ main a:last-child {
   font-weight: 400;
 }
 
+main a:last-child:hover{
+  background-color: #292e47;;
+  color: white;
+}
+
 #character {
   position: relative;
   border: 1px solid black;
+
 }
 .creditCard {
 position: absolute;
