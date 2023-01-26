@@ -47,6 +47,7 @@ nav, main, section, footer {
   margin: 100px 40px;
 }
 
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -98,13 +99,30 @@ nav div :first-child:hover {
   color: white;
 }
 
+
+.hamburger { 
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: black;
+}
+
+
 /* ------------------------------ Header ------------------------------ */
 
 main {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  max-height: 70vw;
+  max-height: 55vw;
 }
 
 main h2 {
@@ -116,6 +134,7 @@ main h2 {
   opacity: 95%;
   width: 40vw;
 }
+
 
 main h2:first-child {
   margin-top: 60px;
@@ -160,9 +179,9 @@ main a:last-child:hover{
 }
 .creditCard {
 position: absolute;
-margin-top: -30px;
-margin-left: -140px;
-height: 23rem;
+margin-top: -50px;
+margin-left: -90px;
+height: 21rem;
 }
 .smilingGuy {
 height: 600px;
@@ -632,11 +651,83 @@ gap: 20px;
 /* ------------------------- Smaller than 766px (mobile) ------------------------- */
 @media (max-width: 766px) {
   /* Your CSS code goes here */
+  .hamburger {
+    display: block;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav-links {
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    flex-direction: column;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+
+  nav a {
+    margin: 16px 0;
+  }
+
+  .nav-links.active{
+    left: 0;
+  }
+
+
+
+
+  main {
+    display: flex;
+    flex-direction: row;
+  }
+
+  main h2 {
+    text-align: center;
+    margin-bottom: 0;
+    padding-top: 0;
+    width: 140vw;
+    margin-right: 50px;
+  }
+
+  .order{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .main-title{
+    width: 50%;
+  }
+
+  .character{
+    width: 50%;
+  }
+
+  .creditCard{
+    display: none;
+  }
+  .emojiFinger{
+    display: none;
+  }
 }
 
 /* ------------------------------ Hamburguer menu ------------------------------ */
 
-/* Your CSS code goes here */
 
 /* ------------------------------ Alert ------------------------------ */
 
