@@ -462,7 +462,37 @@ margin-top: 60px;
 
 /* ------------------------------ Project main ------------------------------ */
 
-/* Your CSS code goes here */
+#main-project {
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+
+#main-project h2 {
+  font-size: 55px;
+  font-weight: bold;
+  margin-bottom: 13px;
+}
+
+.project-subtitle {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--secondary);
+}
+
+#main-project img {
+  max-width: 80vw;
+  max-height: 30vw;
+  object-fit: cover;
+}
+
+#main-project p {
+  font-size: 20px;
+  line-height: 30px;
+}
+
 
 /* ----------------------------------------------------------------------------- */
 /* ------------------------------ CONTACT-US html ------------------------------ */
