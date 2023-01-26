@@ -233,7 +233,7 @@ header img {
 }
 
 .project-text {
-  padding: 20px;
+  padding: 20px 30px;
   height: 200px;
   display: flex;
   flex-direction: column;
@@ -366,7 +366,7 @@ margin-top: 60px;
 
 #services h2 {
   font-size: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   font-weight: 500;
 }
 
@@ -408,11 +408,13 @@ margin-top: 60px;
 
 .service-text {
   padding: 20px;
-  height: 200px;
+  height: 225px;
   width: 275px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
+  line-height: 1.2;
+  gap: 30px;
 }
 
 #services a {
@@ -452,9 +454,10 @@ margin-top: 60px;
   background-repeat: no-repeat;
   background-position: 8px;
   padding-left: 50px;
+  background-color: var(--lightestBlue);
   border: 1px solid var(--lighterSkyBlue);
   height: 72px;
-  width: 290px;
+  width: 293px;
   margin-right: 10px;
 }
 
@@ -651,6 +654,15 @@ gap: 20px;
 /* ------------------------- Smaller than 766px (mobile) ------------------------- */
 @media (max-width: 766px) {
   /* Your CSS code goes here */
+
+  body {
+    padding: 0;
+  }
+
+  nav, main, section, footer {
+    margin: 10px 40px;
+  }
+
   .hamburger {
     display: block;
   }
@@ -684,46 +696,173 @@ gap: 20px;
     left: 0;
   }
 
+  .navContact {
+    display: none;
+  }
 
+/** main section with character */
 
 
   main {
     display: flex;
-    flex-direction: row;
-  }
-
-  main h2 {
-    text-align: center;
-    margin-bottom: 0;
-    padding-top: 0;
-    width: 140vw;
-    margin-right: 50px;
-  }
-
-  .order{
-    display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
+    flex-wrap: nowrap;
+    max-width: 5vw;
+    max-height: 100vw;
+  }
+
+main h2{
+  text-align: center;
+  font-size: 40px;
+  padding-top: 0px;
+  padding-left: 40px;
+  width: 80vw;
+} 
+
+main p {
+  font-size: 16px;
+ width: 90vw;
+ text-align: center;
+}
+
+main a {
+  font-size: initial;
+  font-weight: initial;
+  line-height: 1;
+
+}
+.reverse-links {
+  display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
     align-items: center;
-    width: 100%;
-  }
+    width: 80vw;
+    height: 10vw;
+    padding-left: 150px;
+  margin-bottom: 30px;
+}
 
-  .main-title{
-    width: 50%;
-  }
-
-  .character{
-    width: 50%;
-  }
-
+.smilingGuy{
+  height: 450px;
+  padding-left: 11vw;
+}
   .creditCard{
     display: none;
   }
   .emojiFinger{
     display: none;
   }
+
+/** logo bar */
+#logo {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 40vw;
+  height: 30vw;
+  justify-content: space-evenly;
+  align-content: stretch;
+  gap: 38px;
+}
+
+#logo img:last-of-type {
+  display: none;
+}
+
+/* recent projects */
+
+#projects {
+  display: flex;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.projects-main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#projects img {
+  width: 75vw;
+}
+
+/* client review */
+#testimony {
+  height: 75vw;
+  width: 100vw;
+  margin: 0;
+
+}
+
+#testimony h2 {
+  font-size: 40px;
+}
+
+.testimony-main p {
+  font-size: 20px;
+}
+
+.person {
+height: 60px;
+}
+
+#emoji {
+  display: none;
+}
+
+/*  services */
+
+#services {
+  display: flex;
+  align-items: center;
+  margin-top: 75px;
+  height: 100vw;
+}
+
+.services-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  width: 95vw;
+  gap: 20px;
+}
+
+.serviceDiv {
+  padding: 40px;
+}
+
+/*  question form */
+#support {
+  margin: 650px 0 0 0;
+  height: 60vw;
+  width: 100vw;
+}
+
+#getSupport {
+  display: flex;
+  flex-direction: column;
+  width: 45vw;
+  gap: 15px;
+}
+
+#footer {
+  display: flex;
+  flex-direction: column;
+  margin: 250px auto;
+  width: 1vw;
+  height: 1vw;
+  align-items: flex-start;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  width: 45vw;
+  justify-content: flex-start;
+}
+
 }
 
 /* ------------------------------ Hamburguer menu ------------------------------ */
