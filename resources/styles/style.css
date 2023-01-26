@@ -512,6 +512,19 @@ gap: 20px;
   object-fit: cover;
 }
 
+.blur {
+  background-image: url(../images/projects-section/1.jpg);
+  background-size: contain;
+  position: absolute;
+  top: 42%;
+  /* right: 50%; */
+  height: 30vw;
+  width:77vw;
+  max-width: 77vw;
+  filter: blur(25px);
+  opacity: 30%;
+  z-index: -1;
+}
 #main-project p {
   font-size: 20px;
   line-height: 30px;
