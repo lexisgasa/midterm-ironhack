@@ -131,15 +131,15 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 - [x] Retrieve data from the contact-us form section
 - [x] Retrieve data from the email support form section
 - [ ] Fetch to load project images and text
-- [ ] Style the "contact us" site
-- [ ] Style the "projects" site
+- [x] Style the "contact us" site
+- [x] Style the "projects" site
 
 #### Day Four
 
 ###### Jueves 26, Enero 2023
 
-- [ ] Adapt the site for phone media query configuration
-- [ ] Finish the style
+- [x] Adapt the site for phone media query configuration
+- [x] Finish the style
 
 #### Day Five
 
