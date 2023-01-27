@@ -87,45 +87,41 @@ El proyecto está construido mediante el uso de HTML 5, CSS 3, CSS grid, CSS fle
 - [x] Estilizar la sección nav
 - [x] Estilizar la sección main
 
-#### Day Two
 
 ###### Martes 24, Enero 2023
 
-- [x] Style the logo bar
-- [x] Style the project section
-- [x] Style the clients review section
-- [x] Style the service section
-- [x] Style the support section
-- [x] Style the footer
-- [x] Create the "contact us" HTML skeleton
-- [x] Create the "projects" HTML skeleton
+- [x] Estilizar la seccion logo bar
+- [x] Estilizar la sección project
+- [x] Estilizar la sección clients review
+- [x] Estilizar la sección servicio
+- [x] Estilizar la sección support
+- [x] Estilizar la sección footer
+- [x] Crear el esqueleto de la página "contact us"
+- [x] Crear el esqueleto de la página "projects"
 
-#### Day Three
 
 ###### Miercoles 25, Enero 2023
 
-- [x] Retrieve data from the contact-us form section
-- [x] Retrieve data from the email support form section
-- [ ] Fetch to load project images and text
-- [x] Style the "contact us" site
-- [x] Style the "projects" site
+- [x] Obtener la data input del formulario de "contact us"
+- [x] Obtener la data del formulario de la sección "email support"
+- [ ] Fetch las imágenes y texto en la página de proyectos
+- [x] Estilizar la página "contact us"
+- [x] Estilizar la página "projects"
 
-#### Day Four
 
 ###### Jueves 26, Enero 2023
 
-- [x] Adapt the site for phone media query configuration
-- [x] Finish the style
+- [x] Adaptar la página a formato teléfono móvil mediane el uso de media queries
+- [x] Finalizar el maquetado
 
-#### Day Five
 
 ###### Viernes 27, Enero 2023
 
-- [ ] Fix hamburguer menu
-- [ ] Update readme
-- [ ] Minor style fixes - phone 
-- [ ] Connect Vercel
-- [ ] Get ready the presentation
+- [x] Arreglar el menú de la hamburguesa
+- [x] Actualizar las secciones del readme
+- [x] Arreglos mínimos en versión móvil
+- [x] Conectar a Vercel
+- [x] Preparar la presentación
  
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
