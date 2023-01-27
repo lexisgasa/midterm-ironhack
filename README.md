@@ -145,6 +145,13 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 
 ###### Viernes 27, Enero 2023
 
+- [ ] Fix hamburguer menu
+- [ ] Update readme
+- [ ] Minor style fixes - phone 
+- [ ] Connect Vercel
+- [ ] Get ready the presentation
+ 
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Acerca de mi -->
