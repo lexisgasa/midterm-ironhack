@@ -64,52 +64,28 @@ Tener un archivo README.md bien estructurado y bien documentado también puede s
 
 <img src="./resources/images/readMe/screenshot.png" alt="Logo" width="100%" height="50%">
 
-La sección "sobre el proyecto" en un archivo README es una sección importante que proporciona información general sobre el objetivo y la funcionalidad del proyecto.
 
-En esta sección se puede incluir información como:
 
-- Una descripción breve del proyecto y su propósito
-- Tecnologías utilizadas
-- Funcionalidades principales
-- Instrucciones de instalación y configuración
-- Enlaces a documentación adicional o recursos relacionados con el proyecto
-- Licencia del proyecto
-- Contribuciones de las personas en el proyecto.
+Este es una adaptación de la página web "https://circle-agency-35d27e.webflow.io/", proyecto que pone a prueba conocimientos nativos de HTML, CSS, Grid CSS, CSS Flexible Box Layout ( abreviado como flexbox ), y JavaScript. Este proyecto también incluye media queries, por lo tanto es un proyecto responsive en formato escritorio y teléfono móvil.
+Está desplegado a la página web "https://vercel.com/dashboard" conectado a través de GitHub, accesible a través del siguiente enlace - https://midterm-ironhack-nu.vercel.app/ -.
 
-En resumen, la sección "sobre el proyecto" es una excelente manera de brindar a los usuarios y contribuidores una visión general del proyecto y proporcionarles toda la información necesaria para comenzar a trabajar con él.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Construido Con
 
-La sección "construido con" en un archivo README es una sección que proporciona información sobre las tecnologías y herramientas utilizadas para desarrollar el proyecto.
-
-En esta sección se puede incluir información como:
-
-- Lenguajes de programación utilizados
-- Frameworks y bibliotecas utilizadas
-- Herramientas de desarrollo (IDE, control de versiones, etc)
-- Servicios en la nube utilizados (si corresponde)
-- Otros recursos o tecnologías relacionadas con el proyecto.
-
-En resumen, la sección "construido con" es una excelente manera de brindar a los usuarios y contribuidores una compresión de las tecnologías y herramientas utilizadas para desarrollar el proyecto, esto ayuda a entender mejor el proyecto y a los desarrolladores a contribuir de manera efectiva.
+El proyecto está construido mediante el uso de HTML 5, CSS 3, CSS grid, CSS flexobox y ECMAScript v6., a través de Visual Studio Code.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Roadmap
 
-#### Backlog
-
-- [ ] Ej - Tarea a completar y mover a su respectivo dia de ejecucion
-
-#### Day One
-
 ###### Lunes 23, Enero 2023
 
-- [x] Initialize the project - link a local git with a remote GitHub repository
-- [x] Create the HTML skeleton
-- [x] Style the nav seaction
-- [x] Style the main section
+- [x] Inicializar el proyecto - enlazar el archivo git local con el repositorio reomoto de GitHub
+- [x] Crear el esqueleto de HTML
+- [x] Estilizar la sección nav
+- [x] Estilizar la sección main
 
 #### Day Two
 
