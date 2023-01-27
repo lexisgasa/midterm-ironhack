@@ -139,7 +139,7 @@ Alexis García - [https://twitter.com/Nihonmurasaki] - lexisgasa3007@gmail.com
 
 Project Link: [https://github.com/lexisgasa/midterm-ironhack]
 
-Presentation Link: [Insert here your presentation link](insert-link-here)
+Presentation Link: [https://docs.google.com/presentation/d/1Mg84vkg91QHKOyP_ibTAxArrDhHVyVrgxEkT-iL9Wv8/edit#slide=id.g200e94e848e_0_134]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
