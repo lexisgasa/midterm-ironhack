@@ -263,7 +263,7 @@ color: whitesmoke;
 text-align: center;
 font-size: 45px;
 font-weight: bold;
-padding: 80px;
+padding: 60px;
 }
 
 .testimony-main p {
@@ -320,27 +320,25 @@ margin-top: 60px;
   position: absolute;
   top: 0;
   left: 0;
-  margin-left: 60px;
 }
 
 .emoji-upperRight {
   position: absolute;
   top: 0;
   right: 0;
-  margin-right: 70px;
 }
 .emoji-bottomLeft {
   position: absolute;
   bottom: 0;
   left: 0;
-  margin-left: 90px;
+  margin-left: 30px;
   margin-bottom: 30px;
 }
 .emoji-bottomRight {
   position: absolute;
   bottom: 0;
   right: 0;
-  margin-right: 100px;
+  margin-right: 40px;
   margin-bottom: 30px;
 }
 
@@ -678,13 +676,14 @@ gap: 20px;
   }
 
   .nav-links {
-    position: fixed;
+    position: absolute;
     left: -100%;
     top: 70px;
     flex-direction: column;
-    background-color: black;
+    background-color: #C8C8C8;
     width: 100%;
-    text-align: center;
+    text-align: left;
+    padding-left: 20px;
     transition: 0.3s;
   }
 
@@ -738,7 +737,7 @@ main a {
     align-items: center;
     width: 80vw;
     height: 10vw;
-    padding-left: 150px;
+    padding-left: 90px;
   margin-bottom: 30px;
 }
 
@@ -763,6 +762,7 @@ main a {
   justify-content: space-evenly;
   align-content: stretch;
   gap: 38px;
+  margin-top: 80vw;
 }
 
 #logo img:last-of-type {
@@ -789,14 +789,13 @@ main a {
 
 /* client review */
 #testimony {
-  height: 75vw;
+  height: 85vw;
   width: 100vw;
   margin: 0;
-
 }
 
 #testimony h2 {
-  font-size: 40px;
+  font-size: 38px;
 }
 
 .testimony-main p {
