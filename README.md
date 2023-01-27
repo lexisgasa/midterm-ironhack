@@ -72,6 +72,7 @@ Está desplegado a la página web "https://vercel.com/dashboard" conectado a tra
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
 ### Construido Con
 
 El proyecto está construido mediante el uso de HTML 5, CSS 3, CSS grid, CSS flexobox y ECMAScript v6., a través de Visual Studio Code.
@@ -130,20 +131,13 @@ El proyecto está construido mediante el uso de HTML 5, CSS 3, CSS grid, CSS fle
 
 ## Acerca
 
-La sección "sobre mí" en un archivo README es una sección que proporciona información sobre el desarrollador o equipo detrás del proyecto.
+Mi nombre es Alexis y he comenzado a estudiar recientemente desarrollo de páginas web en la escuela Ironhack.
+Este es mi primer proyecto "completo" en el que he podido poner a prueba los conocimientos obtenidos hasta el momento, finalizado el plazo de entrega del proyecto he percibido ciertos fallos y estructuras que podría mejorar para futuros proyectos.
 
-En esta sección se puede incluir información como:
 
-- Nombre y datos de contacto del desarrollador o equipo.
-- Información sobre experiencia laboral o académica relacionada con el proyecto.
-- Enlaces a perfiles en redes sociales o sitios web personales.
-- Otra información relevante que el desarrollador o equipo desee compartir.
+Alexis García - [https://twitter.com/Nihonmurasaki] - lexisgasa3007@gmail.com
 
-En resumen, la sección "sobre mí" es una excelente manera de brindar a los usuarios y contribuidores una idea de quién está detrás del proyecto y cómo pueden ponerse en contacto con ellos si tienen preguntas o comentarios. Es una buena manera de establecer una conexión con la comunidad de desarrolladores y una forma de mostrar la transparencia en el proyecto.
-
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/lexisgasa/midterm-ironhack]
 
 Presentation Link: [Insert here your presentation link](insert-link-here)
 
@@ -153,43 +147,13 @@ Presentation Link: [Insert here your presentation link](insert-link-here)
 
 ## agradecimientos
 
-La sección "agradecimientos" en un archivo README es una sección que proporciona reconocimiento a las personas o instituciones que ayudaron en el desarrollo del proyecto.
+Agradecimiento especial al lead teacher Diego Zito, y a los dos teacher assistant Aleix y Carlos "Jarko" por estar siempre para ayudar en cualquier momento incluso fuera de horario laboral.
 
-En esta sección se puede incluir información como:
-
-- Agradecimientos específicos a personas que ayudaron en el desarrollo del proyecto.
-- Agradecimientos a instituciones o organizaciones que proporcionaron apoyo financiero o recursos.
-- Enlaces a proyectos o recursos relacionados que fueron útiles para el desarrollo del proyecto.
-
-En resumen, la sección "agradecimientos" es una excelente manera de agradecer a las personas o instituciones que ayudaron en el desarrollo del proyecto. Esta sección también puede ser útil para dar crédito a los recursos o proyectos relacionados que fueron útiles durante el desarrollo.
-
-- [Icon Libraries](insert-link-here)
-- [Google Font Libraries](insert-link-here)
+También agradecer a los compañeros/as por crear un ambiente de estudio idoneo, especialmente aquellos que se han quedado en el afterwork creando un vínculo especial.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Desafío Técnico
 
-La sección "desafío técnico" aunque no es convencional en un proyecto profesional, en nuestro curso dependemos de esta sección en un archivo README para proporcionar información sobre los desafíos técnicos que se enfrentaron durante el desarrollo del proyecto.
-
-En esta sección se puede incluir información como:
-
-- Problemas técnicos específicos que se encontraron durante el desarrollo del proyecto.
-- Soluciones implementadas para superar estos desafíos.
-- Aspectos del proyecto que aún son un desafío o que requieren mejora continua.
-- Recomendaciones para futuros desarrolladores que trabajen en el proyecto.
-
-En resumen, la sección "desafío técnico" es una excelente manera de brindar a los usuarios y contribuidores una idea de los desafíos técnicos que se enfrentaron durante el desarrollo del proyecto, y cómo se abordaron. Esta sección también puede ser útil para futuros desarrolladores que trabajen en el proyecto, ya que les brinda información valiosa sobre problemas potenciales y soluciones para superarlos.
-
-## Grande Error
-
-La sección "grande error" en un archivo README es una sección opcional que proporciona información sobre los errores importantes cometidos durante el desarrollo del proyecto.
-
-En esta sección se puede incluir información como:
-
-- Descripción detallada del error cometido.
-- Consecuencias del error.
-- Soluciones implementadas para corregir el error.
-- Lecciones aprendidas y recomendaciones para evitar errores similares en el futuro.
-
-En resumen, la sección "grande error" es una forma de ser transparente sobre los errores cometidos durante el desarrollo del proyecto. También puede ser útil para otros desarrolladores que trabajen en el proyecto, ya que les brinda información valiosa sobre problemas potenciales y cómo se abordaron.
+Dos mayores desafios con este proyecto, el primero relacionado con CSS que es el que más tiempo ha ocupado, ya que una vez arreglados los pequeños fallos y aparentar la corrección, en la sección media queries he comprobado que no estaba bien hecho, ergo he tenido que volver a hacerlo y arreglarlo en la medida de lo posible.
+El segundo problema viene dado con javascript, le di demasiadas vueltas a problemas que eran realmente sencillos, y los complicados no he sido capaz de sacarlos, el caso de fetch.
